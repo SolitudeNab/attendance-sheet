@@ -91,3 +91,4 @@ window.onload = () => {
   }
 
 };
+localStorage.clear();
