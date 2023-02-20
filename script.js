@@ -1,3 +1,5 @@
+localStorage.clear();
+
 async function validate() {
   const username = document.getElementById("username").value;
   const password = document.getElementById("password").value;
@@ -51,4 +53,3 @@ window.onload = () => {
     }
   }
 };
-localStorage.clear();
